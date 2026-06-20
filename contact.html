@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & devis gratuit — AquaFlex Plomberie</title>
+<meta name="description" content="Contactez AquaFlex pour un dépannage ou un devis gratuit. Disponibles 24h/24 et 7j/7 à Paris et en Île-de-France. Réponse rapide garantie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <div class="tb-left">📍 Paris & Île-de-France · Intervention rapide en 30 min</div>
+    <div class="tb-right">
+      <a class="tb-item" href="mailto:contact@aquaflex-plomberie.fr">✉️ contact@aquaflex-plomberie.fr</a>
+      <a class="tb-item tb-orange" href="tel:+33184601212">📞 01 84 60 12 12</a>
+    </div>
+  </div>
+</div>
+
+<header class="header">
+  <div class="container nav">
+    <a href="index.html" class="logo"><span class="logo-badge">💧</span> Aqua<b>Flex</b></a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+33184601212" class="nav-phone">📞 <span class="np-text"><span>Urgence 24h/24</span>01 84 60 12 12</span></a>
+      <a href="contact.html" class="btn btn--primary">Devis gratuit</a>
+      <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="bg"><img src="https://images.unsplash.com/photo-1676210134050-6f12c6898395?auto=format&fit=crop&w=1700&q=72" alt="Plombier AquaFlex prêt à intervenir"></div>
+  <div class="container">
+    <div class="inner reveal">
+      <div class="crumb"><a href="index.html">Accueil</a> / <b>Contact</b></div>
+      <h1>Contactez-nous</h1>
+      <p>Une urgence ou un projet ? Appelez-nous ou remplissez le formulaire : nous vous répondons rapidement.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div class="info-card reveal">
+        <h3>Parlons de votre besoin</h3>
+        <p>Notre équipe est à votre écoute 24h/24, 7j/7 pour toute urgence ou demande de devis.</p>
+        <div class="info-row"><span class="ic">📞</span><div><b>Téléphone (urgences)</b><span>01 84 60 12 12</span></div></div>
+        <div class="info-row"><span class="ic">✉️</span><div><b>Email</b><span>contact@aquaflex-plomberie.fr</span></div></div>
+        <div class="info-row"><span class="ic">📍</span><div><b>Adresse</b><span>24 rue des Artisans, 75011 Paris</span></div></div>
+        <div class="info-row"><span class="ic">🕐</span><div><b>Horaires</b><span>Urgences 24h/24 · Bureau 8h–19h du lundi au samedi</span></div></div>
+        <div class="socials">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="WhatsApp">✆</a>
+        </div>
+      </div>
+
+      <div class="form-card reveal">
+        <h3 style="margin-bottom:6px">Demande de devis gratuit</h3>
+        <p style="color:var(--muted);margin-bottom:24px">Réponse sous 1 heure ouvrée. Champs marqués d'un * obligatoires.</p>
+        <form id="devis-form">
+          <div class="form-row">
+            <div class="field"><label>Nom complet *</label><input type="text" name="nom" required placeholder="Jean Dupont"></div>
+            <div class="field"><label>Téléphone *</label><input type="tel" name="tel" required placeholder="06 12 34 56 78"></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label>Email</label><input type="email" name="email" placeholder="jean@email.fr"></div>
+            <div class="field"><label>Code postal</label><input type="text" name="cp" placeholder="75011"></div>
+          </div>
+          <div class="field">
+            <label>Type de prestation *</label>
+            <select name="service" required>
+              <option value="">Sélectionnez…</option>
+              <option>Dépannage urgence</option>
+              <option>Débouchage canalisation</option>
+              <option>Recherche de fuite</option>
+              <option>Chauffe-eau / chaudière</option>
+              <option>Rénovation salle de bain</option>
+              <option>Installation sanitaire</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>Décrivez votre besoin *</label>
+            <textarea name="message" required placeholder="Ex : fuite sous l'évier de la cuisine depuis ce matin…"></textarea>
+          </div>
+          <div class="field" style="margin-bottom:10px">
+            <label style="display:flex;gap:10px;align-items:flex-start;font-weight:500;color:var(--muted)"><input type="checkbox" required style="width:auto;margin-top:5px"> J'accepte d'être recontacté concernant ma demande.</label>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg" style="width:100%">Envoyer ma demande →</button>
+          <div class="form-ok">✅ Merci ! Votre demande a bien été envoyée. Nous vous recontactons très vite. <em>(Démo — aucun email n'est réellement envoyé.)</em></div>
+          <p class="form-note">⚡ Pour une urgence, privilégiez le téléphone : 01 84 60 12 12</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="bg"><img src="https://images.unsplash.com/photo-1529836349180-223cd77d8cb6?auto=format&fit=crop&w=1600&q=72" alt="Clé à molette de plombier"></div>
+  <div class="container">
+    <div class="inner reveal">
+      <h2>Une urgence ne peut pas attendre ?</h2>
+      <p>Appelez-nous maintenant, un plombier est disponible immédiatement.</p>
+      <div class="actions">
+        <a href="tel:+33184601212" class="btn btn--primary btn--lg">📞 01 84 60 12 12</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo-badge">💧</span> Aqua<b>Flex</b></a>
+        <p>Votre artisan plombier de confiance à Paris et en Île-de-France. Dépannage, rénovation et installation, 24h/24 et 7j/7.</p>
+      </div>
+      <div><h4>Navigation</h4><div class="footer-links"><a href="index.html">Accueil</a><a href="services.html">Services</a><a href="realisations.html">Réalisations</a><a href="apropos.html">À propos</a><a href="contact.html">Contact</a></div></div>
+      <div><h4>Services</h4><div class="footer-links"><a href="services.html">Dépannage urgence</a><a href="services.html">Débouchage</a><a href="services.html">Chauffe-eau</a><a href="services.html">Salle de bain</a><a href="services.html">Recherche de fuite</a></div></div>
+      <div class="f-contact">
+        <h4>Contact</h4>
+        <div><span class="ic">📞</span> 01 84 60 12 12</div>
+        <div><span class="ic">✉️</span> contact@aquaflex-plomberie.fr</div>
+        <div><span class="ic">📍</span> 24 rue des Artisans, 75011 Paris</div>
+        <div><span class="ic">🕐</span> Urgences 24h/24 — 7j/7</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 AquaFlex Plomberie — Tous droits réservés.</div>
+      <div>SIRET 000 000 000 00000 · Mentions légales · Modèle de démonstration</div>
+    </div>
+  </div>
+</footer>
+
+<a href="tel:+33184601212" class="call-fab" aria-label="Appeler">📞</a>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
