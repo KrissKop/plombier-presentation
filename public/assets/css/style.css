@@ -215,6 +215,7 @@ section h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
 .field textarea { resize: vertical; min-height: 120px; }
 .form-note { font-size: .85rem; color: var(--muted); margin-top: 6px; }
 .form-ok { display: none; background: #e8f8ee; color: #157a3e; border: 1px solid #b8e6c9; padding: 14px; border-radius: var(--radius-sm); margin-top: 16px; font-weight: 600; }
+.form-error { display: none; background: #fdecea; color: #a3271f; border: 1px solid #f3c2bd; padding: 14px; border-radius: var(--radius-sm); margin-top: 16px; font-weight: 600; }
 
 .zones { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; margin-top: 8px; }
 .zone-chip { background: #fff; border: 1px solid var(--line); padding: 9px 18px; border-radius: 999px; font-weight: 600; color: var(--navy); box-shadow: var(--shadow-sm); }
