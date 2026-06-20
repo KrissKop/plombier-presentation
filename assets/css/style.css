@@ -267,10 +267,6 @@ section h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
   .price.feat { transform: none; }
   .hero-float { display: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 720px) {
-  .section { padding: 64px 0; }
-  .topbar { display: none; }
   .nav-links { position: fixed; inset: 76px 0 auto 0; background: #fff; flex-direction: column; align-items: stretch; padding: 14px 18px 22px; gap: 4px; box-shadow: var(--shadow); transform: translateY(-130%); transition: .35s; border-bottom: 1px solid var(--line); }
   .nav-links.open { transform: none; }
   .nav-links a { padding: 13px 14px; border-radius: 10px; }
@@ -278,6 +274,10 @@ section h2 { font-size: clamp(1.9rem, 4vw, 2.9rem); }
   .nav-phone .np-text { display: none; }
   .nav-cta .btn--primary { display: none; }
   .call-fab { display: grid; }
+}
+@media (max-width: 720px) {
+  .section { padding: 64px 0; }
+  .topbar { display: none; }
   .cards, .why, .steps, .pricing, .testis, .gallery, .form-row, .about-text .mini, .footer-grid { grid-template-columns: 1fr; }
   .gitem.tall { grid-row: auto; aspect-ratio: 4/3; }
   .hero-inner { padding: 70px 0 80px; }
